@@ -1,0 +1,871 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*header section start*/
+.header-section {
+    width: 100%;
+    height: 800px;
+    background-image: url(../images/b1.jpg);
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    float: left;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+
+.header .logo {
+    width: 50%;
+    height: 100px;
+    float: left;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo a h2 {
+    padding: 30px 35px;
+    font-size: 30px;
+}
+
+.header .menu {
+    width: 50%;
+    height: 100px;
+    float: left;
+}
+
+.menu ul li {
+    list-style-type: none;
+    float: left;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 5px;
+    padding: 40px 30px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.max-width {
+    max-width: 1170px;
+    margin: 0px auto;
+    height: 400px;
+}
+
+.max-width .box-outer {
+    padding: 300px 0px;
+}
+
+.box-outer .border-box {
+    width: 500px;
+    height: 230px;
+    border: 6px solid yellow;
+    position: relative;
+}
+
+.box-outer .fill-box {
+    width: 480px;
+    height: 180px;
+    background: #fff;
+    position: absolute;
+    top: 118px;
+    left: 150px;
+    opacity: .9;
+}
+
+.fill-box h3 {
+    font-weight: 400;
+    padding: 30px 0px 0px 20px;
+    font-size: 30px;
+}
+
+.fill-box h2 {
+    font-weight: 300;
+    padding: 10px 0px 20px 20px;
+    color: #01d07e;
+    text-shadow: 2px 3px 6px #000;
+    font-size: 40px;
+}
+
+/*header section end*/
+/*about section start*/
+.about-section {
+    margin: 100px 0px;
+}
+
+.about-section .max-width {
+    height: 400px;
+}
+
+.max-width .about {
+    width: 276px;
+    float: left;
+    height: 400px;
+    margin: 8px 7px;
+    box-shadow: 1px 1px 4px 0px #000;
+}
+
+.about img {
+    width: 276px;
+    height: 400px;
+}
+
+.about h3 {
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.about h5 {
+    font-size: 30px;
+    font-weight: 300;
+    color: #ffc107;
+    line-height: 35px;
+    padding: 10px 20px 10px 20px;
+}
+
+.about p {
+    padding: 20px;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+/*about section end*/
+/*find section start*/
+.find-section {
+    margin: 100px 0px;
+    width: 100%;
+    background-image: url(../images/b3.jpg);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.max-width .find-content {
+    width: 100%;
+    height: 100px;
+    padding-top: 50px;
+}
+
+.max-width .find-content h3 {
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+}
+
+.find-content h5 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+    color: #ffc00c
+}
+
+.max-width .find-box {
+    width: 100%;
+    height: 300px;
+}
+
+.find-box .find-type {
+    width: 177px;
+    height: 177px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    float: left;
+    margin: 50px 7px;
+    position: relative;
+}
+
+.find-type i {
+    color: #fff;
+    font-size: 45px;
+    position: absolute;
+    top: 41px;
+    left: 58px;
+}
+
+.find-type h6 {
+    font-size: 20px;
+    color: #ffc107;
+    position: absolute;
+    top: 100px;
+    left: 41px;
+    font-weight: 400;
+}
+
+/*find section end*/
+/*Services section start*/
+.services-section {
+    margin: 100px 0px;
+    height: 600px;
+}
+
+.services-section .max-width {
+    max-width: 1170px;
+    margin: 0px auto;
+    height: 600px;
+}
+
+.max-width .services-heading {
+    width: 100%;
+    height: 100px;
+    padding-top: 50px;
+}
+
+.services-heading h3 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.services-heading h5 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+    color: #ffc00c
+}
+
+.max-width .services-card {
+    width: 100%;
+    height: 500px;
+}
+
+.services-card .card-box {
+    width: 100%;
+    height: 250px;
+    margin: px 0px;
+}
+
+.card-box .card-type {
+    width: 350px;
+    height: 185px;
+    background: #fff;
+    float: left;
+    margin: 0px 20px;
+    box-shadow: 1px 1px 4px 0px #000;
+
+}
+
+.card-type i {
+    font-size: 25px;
+    padding: 20px 20px 10px;
+}
+
+.card-type h4 {
+    color: #01d07e;
+    font-size: 25px;
+    font-weight: 400;
+    padding: 5px 20px;
+}
+
+.card-type p {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 5px 20px;
+
+}
+
+/*Services section end*/
+/*special section start*/
+.special-section {
+    margin: 100px 0px;
+    height: 400px;
+
+}
+
+.special-section .special-outer {
+    height: 400px;
+    width: 100%;
+}
+
+.special-outer .special-image {
+    width: 50%;
+    height: 400px;
+    float: left;
+}
+
+.special-image img {
+    height: 400px;
+}
+
+.special-outer .special-content {
+    width: 50%;
+    height: 400px;
+    background: #e6e1e1;
+    float: left;
+    position: relative;
+}
+
+.special-content .special-border {
+    width: 350px;
+    height: 200px;
+    border: 5px solid #01d07e;
+    position: absolute;
+    top: 41px;
+    left: -39%;
+}
+
+.special-content h2 {
+    font-size: 30px;
+    color: #01d07e;
+    font-weight: 500;
+    padding: 100px 0px 0px 100px;
+
+}
+
+.special-content p {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 80px 50px 100px;
+}
+
+/*special section end*/
+/*gallery section start*/
+.gallery-section {
+    margin: 100px 0px;
+    height: 600px;
+}
+
+.gallery-section .max-width {
+    max-width: 1170px;
+    margin: 0px auto;
+    height: 600px;
+}
+
+.gallery-section .max-width h3 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.max-width .gallery-content {
+    width: 100%;
+    height: 100px;
+}
+
+.gallery-content h5 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+    color: #ffc00c
+}
+
+.max-width .gallery-box {
+    height: 500px;
+}
+
+.gallery-box .gallery-image {
+    height: 220px;
+}
+
+.gallery-type {
+    width: 565px;
+    height: 220px;
+    float: left;
+    padding: 10px;
+
+}
+
+.gallery-type .img-box {
+    margin-left: 15px;
+}
+
+.gallery-type img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery-img-type {
+    width: 275px;
+    height: 220px;
+    float: left;
+}
+
+.gallery-img-type img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*gallery section end*/
+/*comment section start*/
+.comment-section {
+    height: 800px;
+    width: 100%;
+    background: #ccc;
+}
+
+.comment-section .comment-outer {
+    height: 400px;
+    width: 100%;
+}
+
+.comment-outer .comment-content {
+    width: 34%;
+    height: 50%;
+    float: left;
+    padding: 120px 116px 80px;
+}
+
+.comment-content span {
+    color: #eaeaea;
+    font-size: 14px;
+    padding-bottom: 10px;
+    display: block;
+}
+
+.comment-content h4 {
+    color: #01d07e;
+    font-size: 30px;
+}
+
+.comment-content p {
+    color: #eaeaea;
+    font-size: 14px;
+    line-height: 23px;
+    padding: 10px 0px;
+}
+
+.comment-content a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #fff;
+    background: #000;
+    padding-top: 10px;
+    display: inline-block;
+}
+
+.comment-outer .comment-image {
+    width: 34%;
+    height: 50%;
+    background-image: url(../images/b4.jpg);
+    background-size: cover;
+    background-position: center;
+    float: left;
+    padding: 120px 127px 80px;
+}
+
+.comment-image img {
+    width: 34%;
+    height: 100%;
+
+}
+
+.comment-outer .img-com {
+    width: 34%;
+    height: 50%;
+    background-image: url(../images/b4.jpg);
+    background-size: cover;
+    background-position: center;
+    float: left;
+    padding: 120px 116px 80px;
+}
+
+.comment-outer .comment-img {
+    padding: 0px 0px 0px 40px;
+}
+
+.comment-image span {
+    color: #eaeaea;
+    font-size: 14px;
+    padding-bottom: 10px;
+    display: block;
+}
+
+.comment-image h4 {
+    color: #01d07e;
+    font-size: 30px;
+}
+
+.comment-image p {
+    color: #eaeaea;
+    font-size: 14px;
+    line-height: 23px;
+    padding: 10px 0px;
+}
+
+.comment-image a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #fff;
+    background: #000;
+    padding-top: 10px;
+    display: inline-block;
+}
+
+/*comment section end*/
+/*Booking section start*/
+.booking-section {
+    margin: 100px 0px;
+    height: 500px;
+}
+
+.booking-section .max-width {
+    height: 500px;
+}
+
+.max-width .booking-heading {
+    height: 100px;
+}
+
+.booking-heading h3 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.booking-heading h5 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+    color: #ffc00c
+}
+
+.max-width .booking-content {
+    height: 400px;
+    margin: 16px 0px;
+    padding: 0px 16px;
+}
+
+.booking-content .booking-box {
+    width: 264px;
+    height: 400px;
+    float: left;
+
+}
+
+.booking-content .booking-mragin {
+    margin-left: 27px;
+}
+
+.booking-box .booking-image {
+    width: 100%;
+    height: 250px;
+}
+
+.booking-box .img-1 {
+    background-image: url(../images/d1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-1 .star ul {
+    list-style-type: none;
+    padding: 30px 0px 0px 20px;
+}
+
+.star ul li {
+    display: inline-block;
+    color: #ffc107;
+}
+
+.booking-box .img-2 {
+    background-image: url(../images/d2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-2 .star ul {
+    list-style-type: none;
+    padding: 30px 0px 0px 20px;
+}
+
+.booking-box .img-3 {
+    background-image: url(../images/d3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-3 .star ul {
+    list-style-type: none;
+    padding: 30px 0px 0px 20px;
+}
+
+.booking-box .img-4 {
+    background-image: url(../images/d4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-4 .star ul {
+    list-style-type: none;
+    padding: 30px 0px 0px 20px;
+}
+
+.booking-text {
+    width: 100%;
+    height: 110px;
+    padding: 20px 0px;
+}
+
+.booking-text h6 {
+    font-size: 20px;
+    color: #ffc107;
+    font-weight: 500;
+}
+
+.booking-text p {
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.booking-text .btn-box {
+    width: 100%;
+    height: 20px;
+    padding-top: 15px;
+}
+
+.btn-box .button-row {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.button-row a {
+    text-decoration: none;
+    color: #7bb573;
+}
+
+.button-row span {
+    font-size: 15px;
+    padding-left: 70px;
+    display: block;
+}
+
+/*Booking section end*/
+/*subscribe section end*/
+.subscribe-section {
+    margin: 100px 0px;
+    height: 350px;
+    background-image: url(../images/b4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px 0px;
+
+}
+
+.subscribe-section .max-width {
+    height: 235px;
+    padding: 57px 20px;
+}
+
+.max-width .subscribe-heading {
+    height: 50px;
+    margin-bottom: 48px;
+}
+
+.subscribe-heading h3 {
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+.subscribe-heading h5 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+    color: #ffc00c
+}
+
+.max-width .subscribe-input {
+    margin: 0px auto;
+    width: 50%;
+    padding: 20px;
+    background: rgba(225, 225, 225, .3);
+}
+
+.subscribe-input input[type="email"] {
+    width: 65%;
+    display: inline-block;
+    font-size: 14px;
+    color: #000;
+    border: none;
+    background: #f9f9f9;
+    padding: 10px 10px;
+}
+
+.subscribe-input button {
+    padding: 12px 67px;
+    color: #fff;
+    background: #01d07e;
+    border: none;
+    display: inline-block;
+}
+
+/*subscribe section end*/
+/*Contact section start*/
+.contact-section {
+    margin: 100px 0px;
+    height: 550px;
+}
+
+.contact-section .max-width {
+    height: 550px;
+}
+
+.contact-section .max-width h3 {
+    text-align: center;
+    font-size: 20px;
+    color: #000;
+}
+
+.max-width .contact-heading {
+    height: 50px;
+    margin-bottom: 48px;
+}
+
+.contact-heading h5 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+    color: #ffc00c
+}
+
+.max-width .contact-map-outer {
+    height: 400px;
+}
+
+.contact-map-outer .contsct-map {
+    width: 565px;
+    height: 400px;
+    float: left;
+    margin-right: 15px;
+}
+
+.contsct-map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.contact-map-outer .contsct-form {
+    width: 568px;
+    height: 400px;
+    float: left;
+    margin-left: 15px;
+}
+
+.contsct-form .outer {
+    width: 100%;
+}
+
+.left {
+    width: 47%;
+    float: left;
+}
+
+.right {
+    width: 47%;
+    float: left;
+    margin-left: 30px;
+}
+
+input {
+    height: 50px;
+    width: 100%;
+    margin: 5px 0px 20px;
+    padding: 0px 0px 0px 5px;
+    border: 1px solid teal;
+    color: teal;
+}
+
+textarea {
+    width: 100%;
+    height: 180px;
+    resize: none;
+    padding: 12px;
+}
+
+.send-btn {
+    font-size: 16px;
+    width: 100%;
+    font-weight: 600;
+    letter-spacing: 2px;
+    background: #01d07e;
+    padding: 7px 20px;
+    border: none;
+    margin-top: 25px;
+    color: #fff;
+}
+
+/*Contact section end*/
+/*footer section start*/
+.footer-section {
+    margin-top: 100px;
+    height: 350px;
+    background: #313131;
+    padding: 20px 0px;
+}
+
+.footer-section .max-width {
+    height: 224px;
+    padding: 48px 15px;
+}
+
+.max-width .footer-top {
+    text-align: center;
+    margin: 16px;
+}
+
+.footer-top p {
+    color: #b7bbae;
+    line-height: 25px;
+    font-size: 14px;
+}
+
+.footer-top p span {
+    color: #fff;
+}
+
+.footer-top p a {
+    text-decoration: none;
+    color: #b7bbae;
+}
+
+.max-width .social-icons {
+    text-align: center;
+    color: #fff;
+    margin-top: 25px;
+    font-size: 25px;
+}
+
+.social-icons i {
+    padding: 0px 8px;
+}
+
+.max-width .top-arrow {
+    text-align: center;
+    margin-top: 48px;
+}
+
+.top-arrow i {
+    font-size: 25px;
+    color: #fff;
+}
+
+/*footer section end*/
+/*copyright section start*/
+.copyright-section {
+    height: 20px;
+    background: #000000;
+    text-align: center;
+    color: #fff;
+    padding: 25px 0px;
+}
+
+.copyright-section p a {
+    text-decoration: none;
+    color: #ef2800;
+}
+
+/*copyright section send*/
